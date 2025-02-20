@@ -18,8 +18,8 @@ window.onload = function () {
     let excuseElement = document.getElementById("excuse");
     if (excuseElement) {
       excuseElement.innerHTML = generateExcuse();
-    } else {
+    } 
       console.log("elemento #excuse no encontrado.");
-    }
+    
 };
 
